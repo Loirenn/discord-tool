@@ -1,0 +1,1 @@
+export const InviteRegex: RegExp = /(https:\/\/)?(www\.)?(((discord(app)?)?\.com\/invite)|((discord(app)?)?\.gg))\/(?<invite>.+)/gm;

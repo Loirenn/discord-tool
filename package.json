@@ -1,0 +1,45 @@
+{
+    "name": "discord-tool",
+    "version": "3.0.0",
+    "description": "A best tool for discord bot",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "ts-node test/index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/loirenn/discord-tool.git"
+    },
+    "keywords": [
+        "discord",
+        "tool",
+        "discord-tool",
+        "discord-toolkit",
+        "discord-tool.js",
+        "discord-tool.ts",
+        "discordjs-toolkit",
+        "discordjs-tool",
+        "easy-discord",
+        "easy-discordjs",
+        "easy-discord.js",
+        "discord.js-tool",
+        "discord-anticrash",
+        "discord-anticrash-tool"
+    ],
+    "files": [
+        "dist"
+    ],
+    "author": "Loiren",
+    "license": "MIT",
+    "homepage": "https://github.com/loirenn/discord-tool#readme",
+    "devDependencies": {
+        "@types/node": "^20.10.5",
+        "tsc": "^2.0.4",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "discord.js": "^14.7.1"
+    }
+}

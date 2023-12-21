@@ -1,0 +1,1 @@
+export { keyGenerator } from './key';
